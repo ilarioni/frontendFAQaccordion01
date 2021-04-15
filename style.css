@@ -1,3 +1,9 @@
+:root {
+    --text-blue: hsl(238,29%,16%);  
+    --text-red: hsl(14, 88%, 65%);
+    --gradient-violet: hsl(273, 75%, 66%);
+}
+
 html {
     box-sizing: border-box;
     font-size: 100%;
