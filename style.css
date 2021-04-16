@@ -1,7 +1,11 @@
 :root {
     --text-blue: hsl(238,29%,16%);  
     --text-red: hsl(14, 88%, 65%);
+    --text-dkblue: hsl(240, 6%, 50%);
+    --text-xdkblue: hsl(237, 12%, 33%);
     --gradient-violet: hsl(273, 75%, 66%);
+    --gradient-blue: hsl(240, 73%, 65%);
+    --divider-blue: hsl(240, 5%, 91%);
 }
 
 html {
