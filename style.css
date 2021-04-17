@@ -45,6 +45,10 @@ body {
     .card {
         display: flex;
         margin: 6rem auto;
+        background-image: url('images/bg-pattern-desktop.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left center;
     }
 
         .card__image, .card__text {
