@@ -24,3 +24,20 @@ body {
     font-family: 'Kumbh Sans', sans-serif;
     background-image: linear-gradient(var(--gradient-violet),var(--gradient-blue));
 }
+
+.card {
+
+}
+
+@media (min-width: 62.5 rem){
+    
+}
+
+.card__image {
+
+}
+
+.card__text {
+
+}
+
