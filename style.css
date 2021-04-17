@@ -26,11 +26,10 @@ body {
 }
 
 .card {
-
-}
-
-@media (min-width: 62.5 rem){
-    
+    background: #ffffff;
+    border-radius: 2rem;
+    max-width: 56rem;
+    margin: 6rem auto;
 }
 
 .card__image {
@@ -41,3 +40,14 @@ body {
 
 }
 
+@media (min-width: 56rem){
+    .card {
+        display: flex;
+
+        .card__image, .card__text {
+            flex: 1;
+        }
+
+    }
+    
+}
