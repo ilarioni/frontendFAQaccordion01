@@ -29,6 +29,12 @@ body {
     background: #ffffff;
     border-radius: 2rem;
     max-width: 56rem;
+    background-image: url('images/bg-pattern-mobile.svg');
+    background-repeat: no-repeat;
+}
+
+.card__box {
+    display: none;
 }
 
 .card__image img {
@@ -43,6 +49,7 @@ body {
 
 @media (min-width: 56rem){
     .card {
+        position: relative;
         display: flex;
         margin: 6rem auto;
         padding-right: 2rem;
@@ -50,6 +57,15 @@ body {
         background-size: 45%;
         background-repeat: no-repeat;
         background-position: -13% center;
+    }
+
+    .card__box {
+        display: block;
+        position: absolute;
+        top: 57%;
+        left: 0;
+        transform: translateX(-50%) translateY(-50%);
+        z-index: 1;
     }
 
     .card__image, .card__text { 
