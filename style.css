@@ -30,7 +30,9 @@ body {
     border-radius: 2rem;
     max-width: 56rem;
     background-image: url('images/bg-pattern-mobile.svg');
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
+    background-position: center 0%;
+    background-size: 50%;
 }
 
 .card__box {
