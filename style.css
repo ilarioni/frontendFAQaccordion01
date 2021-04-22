@@ -55,6 +55,7 @@ body {
 }
 
 .card__text {
+    padding-top: 13rem;
 
 }
 
@@ -92,5 +93,9 @@ body {
     .card__image img {
         max-width: 25rem;
         transform: translateX(-4rem);
+    }
+
+    .card__text {
+        padding-top: 0;
     }
 }
