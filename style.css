@@ -20,7 +20,7 @@ html {
 body {
     min-height: 100vh;
     margin: 0;
-    padding: 3rem;
+    padding: 10rem 3rem;
     font-family: 'Kumbh Sans', sans-serif;
     background-image: linear-gradient(var(--gradient-violet),var(--gradient-blue));
 }
@@ -45,7 +45,7 @@ body {
 
 .card__image img {
     position: absolute;
-    top: 0;
+    top: -6.8rem;
     left: 50%;
     transform: translateX(-50%);
     display: block;
@@ -91,6 +91,9 @@ body {
     }
 
     .card__image img {
+        position: relative;
+        top: auto;
+        left: auto;
         max-width: 25rem;
         transform: translateX(-4rem);
     }
