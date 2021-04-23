@@ -32,7 +32,7 @@ body {
     background-image: url('images/bg-pattern-mobile.svg');
     background-repeat: no-repeat; 
     background-position: center 0%;
-    background-size: 50%;
+    background-size: 15rem;
 }
 
 .card__box {
@@ -60,6 +60,9 @@ body {
 }
 
 @media (min-width: 56rem){
+    body {
+        padding: 5rem;
+    }
     .card {
         position: relative;
         display: flex;
