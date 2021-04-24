@@ -26,6 +26,10 @@ body {
     color: var(--text-blue);
 }
 
+h1, h2, h3 {
+    margin-top: 0;
+}
+
 /*  mobile size */
 
 .card {
@@ -69,6 +73,7 @@ body {
     padding: 0;
     font-size: 0.875rem;
     font-family: 'Kumbh Sans', sans-serif;
+    margin-bottom: 1rem;
 }
 .accordion__content {
     font-size: 0.75rem;
