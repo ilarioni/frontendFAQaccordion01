@@ -70,6 +70,10 @@ body {
     font-size: 0.875rem;
     font-family: 'Kumbh Sans', sans-serif;
 }
+.accordion__content {
+    font-size: 0.75rem;
+    line-height: 1.4;
+}
 
 
 /*  desktop size */
