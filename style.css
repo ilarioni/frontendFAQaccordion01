@@ -59,6 +59,14 @@ body {
 
 }
 
+.accordion__question {
+    border: none;
+    background: transparent;
+    padding: 0;
+    font-size: 1rem;
+
+}
+
 @media (min-width: 56rem){
     body {
         padding: 5rem;
