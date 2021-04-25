@@ -67,6 +67,14 @@ h1, h2, h3 {
 }
 
 /*  accordion part */
+.accordion__item {
+    border-bottom: 1px solid var(--divider-blue);
+}
+
+.accordion__item h2 {
+    margin-bottom: 0;
+}
+
 .accordion__question {
     border: none;
     background: transparent;
