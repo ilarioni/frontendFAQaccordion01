@@ -77,6 +77,11 @@ h1, h2, h3 {
 }
 
 .accordion__question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-align: left;
     border: none;
     background: transparent;
     padding: 0;
@@ -84,6 +89,19 @@ h1, h2, h3 {
     font-family: 'Kumbh Sans', sans-serif;
     margin-bottom: 1rem;
 }
+
+.accordion__question::after {
+    content: '';
+    display: block;
+    width: 0.625rem;
+    height: 1rem;
+    background-image: url('images/icon-arrow-down.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+
+}
+
 .accordion__content {
     font-size: 0.75rem;
     line-height: 1.4;
