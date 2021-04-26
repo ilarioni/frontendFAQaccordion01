@@ -68,6 +68,7 @@ h1, h2, h3 {
 
 /*  accordion part */
 .accordion__item {
+    padding-top: 1rem;
     border-bottom: 1px solid var(--divider-blue);
 }
 
@@ -86,6 +87,7 @@ h1, h2, h3 {
 .accordion__content {
     font-size: 0.75rem;
     line-height: 1.4;
+    margin-bottom: 1rem;
 }
 
 
