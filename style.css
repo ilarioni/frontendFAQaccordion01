@@ -36,6 +36,7 @@ h1, h2, h3 {
     background: #ffffff;
     border-radius: 2rem;
     max-width: 56rem;
+    padding: 2.875rem 1.5rem; 
     background-image: url('images/bg-pattern-mobile.svg');
     background-repeat: no-repeat; 
     background-position: center 0%;
