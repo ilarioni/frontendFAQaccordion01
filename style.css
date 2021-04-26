@@ -87,7 +87,11 @@ h1, h2, h3 {
     padding: 0;
     font-size: 0.875rem;
     font-family: 'Kumbh Sans', sans-serif;
-    margin-bottom: 1rem;
+    margin-bottom: 1rem;  
+}
+
+.accordion__question.open {
+    font-weight: 700; 
 }
 
 .accordion__question::after {
@@ -118,8 +122,8 @@ h1, h2, h3 {
     .card {
         position: relative;
         display: flex;
-        margin: 6rem auto;
-        padding-right: 2rem;
+        margin: 0 auto;
+        padding: 4.375rem 6.25rem 4.375rem 0;
         background-image: url('images/bg-pattern-desktop.svg');
         background-size: 45%;
         background-repeat: no-repeat;
