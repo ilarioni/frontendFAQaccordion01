@@ -85,7 +85,7 @@ h1, h2, h3 {
     text-align: left;
     border: none;
     background: transparent;
-    padding: 0;
+    padding: 0.2rem;
     font-size: 0.875rem;
     font-family: 'Kumbh Sans', sans-serif;
     margin-bottom: 1rem;  
@@ -106,7 +106,7 @@ h1, h2, h3 {
 
 .accordion__question:focus, .accordion__question:focus-visible {
     border: none;  
-    outline: solid 1px rgba(0,0,0,0.25);
+    outline: dashed 1px rgba(0,0,0,0.25);
 }
 
 .accordion__question.open {
@@ -132,7 +132,7 @@ h1, h2, h3 {
 }
 
 .accordion__collapse.open {
-
+    display: block;
 }
 
 
