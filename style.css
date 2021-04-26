@@ -91,8 +91,9 @@ h1, h2, h3 {
     margin-bottom: 1rem;  
 }
 
-.accordion__question.open {
-    font-weight: 700; 
+.accordion__question:focus {
+    outline-color: red;
+
 }
 
 .accordion__question::after {
@@ -100,15 +101,20 @@ h1, h2, h3 {
     display: block;
     width: 0.625rem;
     height: 1rem;
+    border: none;
     background-image: url('images/icon-arrow-down.svg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
-
+    transition: transform 300ms ease-in-out;
 }
 
 .accordion__question.open {
+    font-weight: 700;
+}
 
+.accordion__question.open::after {
+    transform: rotate(180deg);
 }
 
 .accordion__content {
