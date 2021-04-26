@@ -107,6 +107,10 @@ h1, h2, h3 {
 
 }
 
+.accordion__question.open {
+
+}
+
 .accordion__content {
     font-size: 0.75rem;
     line-height: 1.4;
@@ -115,6 +119,14 @@ h1, h2, h3 {
 
 .accordion__collapse.collapse {
     display: none;
+}
+
+.accordion__collapse.collapsing {
+
+}
+
+.accordion__collapse.open {
+
 }
 
 
