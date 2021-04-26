@@ -16,6 +16,12 @@ document.querySelectorAll('.accordion__question').forEach((item) => {
         
         // Close accordion item
         else {
+            item.nextElementSibling.classList = 'accordion__collapse collapsing';  
+
+            setTimeout(() => {
+                console.log('close accordion content');
+                item.nextElementSibling.classList = 'accordion__collapse collapse';
+            }, 300);
 
         }
 
@@ -25,9 +31,12 @@ document.querySelectorAll('.accordion__question').forEach((item) => {
 
         /* toggle code
 
-        item.classList.toggle('open');
-        item.nextElementSibling.classList.toggle('open');
-        
         */
+
+        item.classList.toggle('open');
+
+        // item.nextElementSibling.classList.toggle('open');
+
+        
     });
 });
