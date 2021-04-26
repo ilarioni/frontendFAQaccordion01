@@ -91,11 +91,6 @@ h1, h2, h3 {
     margin-bottom: 1rem;  
 }
 
-.accordion__question:focus {
-    outline-color: red;
-
-}
-
 .accordion__question::after {
     content: '';
     display: block;
@@ -107,6 +102,11 @@ h1, h2, h3 {
     background-size: contain;
     background-position: center center;
     transition: transform 300ms ease-in-out;
+}
+
+.accordion__question:focus, .accordion__question:focus-visible {
+    border: none;  
+    outline: solid 1px rgba(0,0,0,0.25);
 }
 
 .accordion__question.open {
