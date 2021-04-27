@@ -10,6 +10,9 @@ document.querySelectorAll('.accordion__question').forEach((item) => {
             accCollapse.classList = 'accordion__collapse collapsing'; 
 
             accCollapse.style.display = 'block';
+            let accHeight = accCollapse.clientHeight;
+            accCollapse.style.height = accHeight;
+            accCollapse.style.display = 'none';
 
             setTimeout(() => {
                 console.log('open accordion content');
