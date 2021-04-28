@@ -7,12 +7,18 @@ document.querySelectorAll('.accordion__question').forEach((item) => {
         // Open accordion item
         if (!item.classList.contains('open')){
             console.log('toggle accordion button');
-            accCollapse.classList = 'accordion__collapse collapsing'; 
+            
 
             accCollapse.style.display = 'block';
             let accHeight = accCollapse.clientHeight;
-            accCollapse.style.height = accHeight;
-            accCollapse.style.display = 'none';
+            console.log(accHeight);
+
+
+            item.nextElementSibling.style.height = accHeight + 'px';
+            accCollapse.style.display = ''; 
+
+            
+            accCollapse.classList = 'accordion__collapse collapsing'; 
 
             setTimeout(() => {
                 console.log('open accordion content');
