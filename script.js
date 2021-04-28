@@ -13,16 +13,16 @@ document.querySelectorAll('.accordion__question').forEach((item) => {
             let accHeight = accCollapse.clientHeight;
             console.log(accHeight);
 
-
-            accCollapse.style.height = accHeight + 'px';
-            accCollapse.style.display = ''; 
-
+            setTimeout(() => {
+                accCollapse.style.height = accHeight + 'px';
+                accCollapse.style.display = ''; 
+            }, 1);
             
             accCollapse.classList = 'accordion__collapse collapsing'; 
 
             setTimeout(() => {
                 console.log('open accordion content');
-                accCollapse.classList = 'accordion__collapse open';
+                accCollapse.classList = 'accordion__collapse collapse open';
                 accCollapse.style.height = '';
 
             }, 300);
