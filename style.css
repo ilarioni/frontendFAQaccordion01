@@ -113,14 +113,18 @@ h1, h2, h3 {
     font-weight: 700;
 }
 
-.accordion__question.open::after { 
+.accordion__question.open::after {  
     transform: rotate(180deg);
 }
 
 .accordion__content {
     font-size: 0.75rem;
     line-height: 1.4;
-    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+.accordion__collapse {
+    transition: height 300ms ease;
 }
 
 .accordion__collapse.collapse {
@@ -130,8 +134,6 @@ h1, h2, h3 {
 .accordion__collapse.collapsing {
     height: 0;
     overflow: hidden;
-    transition: height 300ms ease;
-
 }
 
 .accordion__collapse.open {

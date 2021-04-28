@@ -14,7 +14,7 @@ document.querySelectorAll('.accordion__question').forEach((item) => {
             console.log(accHeight);
 
 
-            item.nextElementSibling.style.height = accHeight + 'px';
+            accCollapse.style.height = accHeight + 'px';
             accCollapse.style.display = ''; 
 
             
@@ -23,6 +23,8 @@ document.querySelectorAll('.accordion__question').forEach((item) => {
             setTimeout(() => {
                 console.log('open accordion content');
                 accCollapse.classList = 'accordion__collapse open';
+                accCollapse.style.height = '';
+
             }, 300);
         }
         
