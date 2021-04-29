@@ -23,7 +23,7 @@ document.querySelectorAll('.accordion__question').forEach((item) => {
             setTimeout(() => {
                 console.log('open accordion content');
                 accCollapse.classList = 'accordion__collapse collapse open';
-                accCollapse.style.height = '';
+                // 
 
             }, 300);
         }
@@ -33,8 +33,13 @@ document.querySelectorAll('.accordion__question').forEach((item) => {
             accCollapse.classList = 'accordion__collapse collapsing';  
 
             setTimeout(() => {
+                accCollapse.style.height = '0px';
+            }, 1);
+
+            setTimeout(() => {
                 console.log('close accordion content');
                 accCollapse.classList = 'accordion__collapse collapse';
+                accCollapse.style.height = '';
             }, 300);
 
         }
