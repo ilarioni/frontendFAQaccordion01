@@ -12,3 +12,7 @@ Mobile version
 Accordion desktop
 
 ![accordion desktop](https://user-images.githubusercontent.com/61503627/116740272-120f3400-a9f5-11eb-9f2f-ccb7bb7f71a0.png)
+
+Accordion mobile
+
+![accordion mobile](https://user-images.githubusercontent.com/61503627/116740355-34a14d00-a9f5-11eb-933d-cf3cc45935de.png)
